@@ -1,6 +1,6 @@
 # Policy Calculator
 
-Assignment
+Technical Java Spring Assignment
 
 Tech stack used:
 
