@@ -16,7 +16,7 @@ Initial project was created using Spring Initializr. I added a Spring Web depend
 
 ###### Premium Calculator
 
-`org.mosmanis.policy.calculators.PremiumCalculator`
+`org.mosmanis.policy.calculators.PremiumCalculator`  
 To prevent possible issues with `double` type values during calculation, the class and its services operate only with the `BigDecimal` type.`double` is used only to store insured sum for Policy SubObjects and to return the total premium.
 
 `PremiumCalculator#calculate(Policy policy): double`
@@ -30,7 +30,7 @@ What does it do:
    3.2 Get the applicable risk type premium coefficient [(see Premium Rules)](#premium-rules)  
    3.3 Calculate the risk premium - multiply coefficient with total risk sum  
    3.4 Finally, add the current risk premium to the total premium
-4. Set the decimal point for `BigDecimal` and return a `double` value
+4. Set the decimal scale for `BigDecimal` and return a `double` value
 
 ###### Premium Rules
 
